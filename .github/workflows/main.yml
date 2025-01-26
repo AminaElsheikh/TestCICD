@@ -27,7 +27,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Run Tests
-        run: dotnet test --configuration Release --logger "xunit;LogFilePath=test-results.xml"
+        run: dotnet test --configuration Release --no-build --verbosity normal #dotnet test --configuration Release --logger "xunit;LogFilePath=test-results.xml"
 
       - name: Publish Project
         run: dotnet publish --configuration Release --output ./publish

@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "+sWWsAaB5oo1QxcEoHIG0kewTGtdnv9oX6PSzhZrxS9z/aXST11qdqWyMTsWYud0vlBzgb5+ZBzBZWVONdXPAA==",
+  "dgSpecHash": "hxi392p4dmbKVf+W7H571dp4VC5EslCovs2VRBFiJGdioJZYUe4fioqdmF5BLyrkUlwdshf+AehAjUmM800+lA==",
   "success": true,
-  "projectFilePath": "E:\\0 Amina\\0 Trash\\Test CICD\\TestCICD\\TestCICD\\TestCICD\\TestCICD.csproj",
+  "projectFilePath": "E:\\0 Amina\\0 Trash\\Test CICD\\TestCICD\\TestCI-CD\\TestCICD\\TestCICD\\TestCICD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\mahmoud.dahi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

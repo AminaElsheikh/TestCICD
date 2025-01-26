@@ -26,4 +26,3 @@ E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCICD\TestCICD\obj\Debug\net5.0\TestCIC
 E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCICD\TestCICD\obj\Debug\net5.0\ref\TestCICD.dll
 E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.pdb
 E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.genruntimeconfig.cache
-E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.csprojAssemblyReference.cache

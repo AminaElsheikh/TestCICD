@@ -10,7 +10,7 @@ namespace TestProject2
         {
             // Arrange
             var calculator = new Calculator();
-            int num1 = 4;
+            int num1 = 3;
             int num2 = 4;
 
             // Act

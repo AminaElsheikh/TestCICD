@@ -2,4 +2,4 @@
 
 # Ignore configuration files
 appsettings.json
-.vs
+.vs/

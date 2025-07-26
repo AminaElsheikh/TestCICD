@@ -1,13 +1,20 @@
-# Use crlf for YAML files
+# Use LF for all text files (cross-platform friendly)
+* text=auto eol=lf
+
+# Use CRLF only for YAML if needed (you can remove this if LF is fine)
 *.yml text eol=crlf
 *.yaml text eol=crlf
 
-# Optional: enforce crlf for all text files
-* text=auto eol=crlf
-
-# Avoid treating binary files as text
+# Treat binary files correctly
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
 *.pdf binary
+
+# C#-specific settings
+*.cs text
+*.csproj text
+*.sln text
+*.config text
+*.resx text

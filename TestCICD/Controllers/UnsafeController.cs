@@ -19,6 +19,12 @@ namespace TestCICD.Controllers
                 return Ok(obj.ToString());
             }
         }
+        [HttpPost("Test")]
+        public IActionResult Test()
+        {
+            int x = 4 + 5;
+            return Ok(x);
+        }
     }
     public class SafeInput
     {

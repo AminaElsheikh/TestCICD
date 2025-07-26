@@ -20,7 +20,7 @@ namespace TestCICD.Controllers
         [HttpPost("Test")]
         public IActionResult Test()
         {
-            int x = 4 + 5+10 + 20;
+            int x = 4 + 5+10 + 20 +10;
             return Ok(x);
         }
     }

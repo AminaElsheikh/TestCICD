@@ -1,9 +1,9 @@
-# Use LF for YAML files
-*.yml text eol=lf
-*.yaml text eol=lf
+# Use crlf for YAML files
+*.yml text eol=crlf
+*.yaml text eol=crlf
 
-# Optional: enforce LF for all text files
-* text=auto eol=lf
+# Optional: enforce crlf for all text files
+* text=auto eol=crlf
 
 # Avoid treating binary files as text
 *.png binary

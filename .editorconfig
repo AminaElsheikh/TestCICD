@@ -1,0 +1,35 @@
+# .editorconfig - Project-wide coding standards
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf               # Use LF consistently
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# YAML files (optional override for CRLF)
+[*.yml]
+end_of_line = crlf
+
+[*.yaml]
+end_of_line = crlf
+
+# C# files
+[*.cs]
+indent_style = space
+indent_size = 4
+dotnet_separate_import_directive_groups = true
+dotnet_sort_system_directives_first = true
+csharp_new_line_before_open_brace = all
+csharp_indent_case_contents = true
+
+# Project & solution files
+[*.csproj]
+indent_size = 2
+
+[*.sln]
+indent_style = space
+indent_size = 2

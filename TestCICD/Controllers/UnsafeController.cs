@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+using System.Text.Json;
 
 namespace TestCICD.Controllers
 {
@@ -12,17 +12,25 @@ namespace TestCICD.Controllers
         public IActionResult Deserialize([FromBody] SafeInput model)
         {
             
-            BinaryFormatter formatter = new BinaryFormatter();
-            using (MemoryStream stream = new MemoryStream(model.input))
-            {
-                object obj = formatter.Deserialize(stream); // Vulnerability here
-                return Ok(obj.ToString());
-            }
+            // Assume the input is a UTF-8 encoded JSON object
+            string jsonString = System.Text.Encoding.UTF8.GetString(model.input);
+            DeserializedObject obj = JsonSerializer.Deserialize<DeserializedObject>(jsonString);
+            return Ok(obj?.ToString());
         }
     }
     public class SafeInput
     {
         public string Data { get; set; }
         public byte[] input { get; set; }
+    }
+    // Define a POCO for safe deserialization
+    public class DeserializedObject
+    {
+        public string? Property1 { get; set; }
+        public int? Property2 { get; set; }
+        public override string ToString()
+        {
+            return $"Property1: {Property1}, Property2: {Property2}";
+        }
     }
 }

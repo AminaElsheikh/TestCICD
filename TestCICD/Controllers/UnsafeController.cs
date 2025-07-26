@@ -1,23 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 
 namespace TestCICD.Controllers
 {
+    public class SafeInput
+    {
+        public string Data { get; set; }
+    }
+
     [ApiController]
     [Route("[controller]")]
     public class UnsafeController : ControllerBase
     {
         [HttpPost("deserialize")]
-        public IActionResult Deserialize([FromBody] byte[] input)
+        public IActionResult Deserialize([FromBody] SafeInput input)
         {
-            // ❌ Insecure Deserialization (detected by CodeQL)
-            BinaryFormatter formatter = new BinaryFormatter();
-            using (MemoryStream stream = new MemoryStream(input))
-            {
-                object obj = formatter.Deserialize(stream); // Vulnerability here
-                return Ok(obj.ToString());
-            }
+            // ✅ Safe deserialization using model binding to a POCO
+            return Ok(input.Data);
         }
     }
 }

@@ -8,6 +8,9 @@ on:
     branches:
       - Test_Branch  # Use the Test_Branch for pull requests
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: windows-latest

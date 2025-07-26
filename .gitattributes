@@ -1,0 +1,13 @@
+# Use LF for YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Optional: enforce LF for all text files
+* text=auto eol=lf
+
+# Avoid treating binary files as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary

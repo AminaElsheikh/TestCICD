@@ -1,0 +1,506 @@
+[10248] [001] [INFO]  Running tracing analysis.
+[10248] [001] [INFO] EXTRACTION STARTING at 07/26/2025 16:59:02
+[10248] [001] [INFO]   Extractor: C:\tools\codeql\csharp\tools\win64\Semmle.Extraction.CSharp.Driver.dll
+[10248] [001] [INFO]   Extractor version: heads/codeql-cli-2.22.1 (4ece8abc3032a266eb4b9839442d8be5084552ea)
+[10248] [001] [INFO]   Current working directory: E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestProject2
+[10248] [001] [INFO]   Arguments to Roslyn: /noconfig @C:\Users\mahmoud.dahi\AppData\Local\Temp\MSBuildTempAmina.Elshikh\tmp40a3237fb0ec428fa6a15c206da70986.rsp /warnaserror-
+[10248] [001] [INFO]   Arguments have been written to E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\db-csharp\log\csharp.61f4032a4e90ffdb80fcd1f9b471b5af68e3cf2650a8f94b890197775c4407cd.txt
+[10248] [001] [INFO]   Models constructed in 00:00:01.1161006
+[10248] [007] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.objectmodel\16.7.1\lib\netstandard2.0\Microsoft.TestPlatform.CoreUtilities.dll (00:00:00.2031485)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.CSharp.dll (00:00:00.2536914)
+[10248] [006] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.testhost\16.7.1\lib\netcoreapp2.1\Microsoft.TestPlatform.CommunicationUtilities.dll (00:00:00.3585952)
+[10248] [008] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.testhost\16.7.1\lib\netcoreapp2.1\Microsoft.TestPlatform.CrossPlatEngine.dll (00:00:00.0203110)
+[10248] [007] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.objectmodel\16.7.1\lib\netstandard2.0\Microsoft.TestPlatform.PlatformAbstractions.dll (00:00:00.0826592)
+[10248] [006] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.testhost\16.7.1\lib\netcoreapp2.1\Microsoft.TestPlatform.Utilities.dll (00:00:00.0172908)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.VisualBasic.dll (00:00:00.0018576)
+[10248] [001] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestProject2\obj\Debug\net5.0\TestProject2.dll (00:00:00.6063382)
+[10248] [006] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.codecoverage\16.7.1\lib\netcoreapp1.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll (00:00:00.0528469)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Primitives.dll (00:00:00.0055075)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\mscorlib.dll (00:00:00.0019924)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\netstandard.dll (00:00:00.0019841)
+[10248] [001] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.testhost\16.7.1\lib\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.Common.dll (00:00:00.1368512)
+[10248] [006] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\nuget.frameworks\5.0.0\lib\netstandard2.0\NuGet.Frameworks.dll (00:00:00.1941165)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.VisualBasic.Core.dll (00:00:00.4365482)
+[10248] [007] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.objectmodel\16.7.1\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll (00:00:00.4032610)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.AppContext.dll (00:00:00.0053122)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Buffers.dll (00:00:00.0032634)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Concurrent.dll (00:00:00.1735560)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.NonGeneric.dll (00:00:00.0302828)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.dll (00:00:00.2489091)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Specialized.dll (00:00:00.0740371)
+[10248] [001] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll (00:00:00.6523176)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.DataAnnotations.dll (00:00:00.0015273)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.dll (00:00:00.0035020)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.Annotations.dll (00:00:00.1287186)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.EventBasedAsync.dll (00:00:00.0320545)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.Primitives.dll (00:00:00.0663013)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Configuration.dll (00:00:00.0701923)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Console.dll (00:00:00.0729189)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Core.dll (00:00:00.0015883)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Data.DataSetExtensions.dll (00:00:00.0149875)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Data.dll (00:00:00.0035742)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Contracts.dll (00:00:00.0406686)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Debug.dll (00:00:00.0013957)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Immutable.dll (00:00:00.6881218)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.TypeConverter.dll (00:00:00.4262083)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.DiagnosticSource.dll (00:00:00.1268910)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.FileVersionInfo.dll (00:00:00.0111755)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.TextWriterTraceListener.dll (00:00:00.0189663)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.StackTrace.dll (00:00:00.0362359)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Tools.dll (00:00:00.0019491)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Process.dll (00:00:00.0530105)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Drawing.dll (00:00:00.0015757)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Tracing.dll (00:00:00.1078758)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.TraceSource.dll (00:00:00.1258950)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Dynamic.Runtime.dll (00:00:00.0015462)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Drawing.Primitives.dll (00:00:00.1164858)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.Calendars.dll (00:00:00.0398311)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.dll (00:00:00.0397256)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.Extensions.dll (00:00:00.0022646)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.dll (00:00:00.0019855)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Formats.Asn1.dll (00:00:00.1152324)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.Brotli.dll (00:00:00.0684462)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.dll (00:00:00.0291014)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.ZipFile.dll (00:00:00.0055477)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.FileSystem.dll (00:00:00.0020521)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.dll (00:00:00.0016005)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.Primitives.dll (00:00:00.0268720)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.DriveInfo.dll (00:00:00.0372308)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.Watcher.dll (00:00:00.0557411)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.dll (00:00:00.0970059)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.IsolatedStorage.dll (00:00:00.0230938)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Data.Common.dll (00:00:00.9557146)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.MemoryMappedFiles.dll (00:00:00.0397306)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.UnmanagedMemoryStream.dll (00:00:00.0049245)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Pipes.dll (00:00:00.0291316)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.Queryable.dll (00:00:00.2003658)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.Parallel.dll (00:00:00.2638891)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.dll (00:00:00.0017437)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Http.Json.dll (00:00:00.0266237)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.dll (00:00:00.3753090)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Memory.dll (00:00:00.3708359)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.HttpListener.dll (00:00:00.0391814)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.NameResolution.dll (00:00:00.0261354)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Http.dll (00:00:00.2889287)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Mail.dll (00:00:00.1292336)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Ping.dll (00:00:00.0134221)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.NetworkInformation.dll (00:00:00.0938867)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Primitives.dll (00:00:00.0635816)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.ServicePoint.dll (00:00:00.0102497)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebClient.dll (00:00:00.0841533)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Security.dll (00:00:00.1428786)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Requests.dll (00:00:00.1494834)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Sockets.dll (00:00:00.1726357)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebProxy.dll (00:00:00.0110588)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Numerics.dll (00:00:00.0014831)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebSockets.Client.dll (00:00:00.0194658)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebHeaderCollection.dll (00:00:00.0407830)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebSockets.dll (00:00:00.0151383)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.dll (00:00:00.0503056)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Emit.ILGeneration.dll (00:00:00.0563128)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Numerics.Vectors.dll (00:00:00.2200468)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Extensions.dll (00:00:00.0018993)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ObjectModel.dll (00:00:00.2766894)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Emit.dll (00:00:00.2748258)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Emit.Lightweight.dll (00:00:00.0961405)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Resources.Reader.dll (00:00:00.0021215)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Primitives.dll (00:00:00.0876988)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.TypeExtensions.dll (00:00:00.0465994)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Resources.ResourceManager.dll (00:00:00.0015061)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Resources.Writer.dll (00:00:00.0167867)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.CompilerServices.Unsafe.dll (00:00:00.0321273)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.CompilerServices.VisualC.dll (00:00:00.0254286)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Extensions.dll (00:00:00.0027404)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Handles.dll (00:00:00.0030069)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.InteropServices.RuntimeInformation.dll (00:00:00.0937617)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.InteropServices.dll (00:00:00.3552334)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Loader.dll (00:00:00.0928912)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Metadata.dll (00:00:00.8225274)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.dll (00:00:00.0019226)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Formatters.dll (00:00:00.0638867)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Numerics.dll (00:00:00.1229628)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Primitives.dll (00:00:00.0128489)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Claims.dll (00:00:00.0706359)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Xml.dll (00:00:00.1323656)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Csp.dll (00:00:00.0946418)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Encoding.dll (00:00:00.0241901)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Algorithms.dll (00:00:00.3264002)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Primitives.dll (00:00:00.0672206)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.dll (00:00:00.0112856)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.X509Certificates.dll (00:00:00.0787806)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.SecureString.dll (00:00:00.0095842)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Principal.dll (00:00:00.0754235)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ServiceModel.Web.dll (00:00:00.0019882)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ServiceProcess.dll (00:00:00.0033363)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encoding.CodePages.dll (00:00:00.0057735)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encoding.dll (00:00:00.0020798)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encoding.Extensions.dll (00:00:00.0698994)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encodings.Web.dll (00:00:00.0285970)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Intrinsics.dll (00:00:01.7833527)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Json.dll (00:00:00.1839171)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.RegularExpressions.dll (00:00:00.1878697)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.dll (00:00:00.1292191)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Overlapped.dll (00:00:00.0087669)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Channels.dll (00:00:00.0328593)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Parallel.dll (00:00:00.1349359)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Timer.dll (00:00:00.0016782)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.ThreadPool.dll (00:00:00.1016467)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Transactions.dll (00:00:00.0639602)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Dataflow.dll (00:00:00.2514659)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Transactions.Local.dll (00:00:00.0241905)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ValueTuple.dll (00:00:00.0021397)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Web.dll (00:00:00.0045013)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Web.HttpUtility.dll (00:00:00.0081472)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Windows.dll (00:00:00.0015344)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.Linq.dll (00:00:00.0053143)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.dll (00:00:00.0191972)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.Serialization.dll (00:00:00.0751061)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XmlDocument.dll (00:00:00.0477740)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XDocument.dll (00:00:00.2725952)
+[10248] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.dll (00:00:00.0017348)
+[10248] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XmlSerializer.dll (00:00:00.2041591)
+[10248] [008] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.testplatform.testhost\16.7.1\lib\netcoreapp2.1\testhost.dll (00:00:00.0034066)
+[10248] [008] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\xunit.abstractions\2.0.3\lib\netstandard2.0\xunit.abstractions.dll (00:00:00.0899848)
+[10248] [006] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.ReaderWriter.dll (00:00:00.7900236)
+[10248] [001] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\xunit.assert\2.4.1\lib\netstandard1.1\xunit.assert.dll (00:00:00.2472702)
+[10248] [008] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\xunit.extensibility.core\2.4.1\lib\netstandard1.1\xunit.core.dll (00:00:00.1281256)
+[10248] [006] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs (00:00:00.1879578)
+[10248] [008] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestProject2\UnitTest1.cs (00:00:00.1276951)
+[10248] [001] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\xunit.extensibility.execution\2.4.1\lib\netstandard1.1\xunit.execution.dotnet.dll (00:00:00.3710304)
+[10248] [006] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestProject2\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs (00:00:00.0687400)
+[10248] [008] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestProject2\obj\Debug\net5.0\TestProject2.AssemblyInfo.cs (00:00:00.0261360)
+[10248] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.dll (00:00:03.9602322)
+[10248] [001] [INFO]   Extraction took 00:00:08.0618223
+[10248] [001] [INFO]   Peak working set = 265 MB
+[10248] [001] [INFO] EXTRACTION SUCCEEDED in 00:00:09.3300972
+\Microsoft.JSInterop.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.VisualBasic.Core.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.VisualBasic.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Registry.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\mscorlib.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\netstandard.dll
+[11180] [001] [INFO]   Resolved reference C:\Users\mahmoud.dahi\.nuget\packages\swashbuckle.aspnetcore.swagger\5.6.3\lib\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+[11180] [001] [INFO]   Resolved reference C:\Users\mahmoud.dahi\.nuget\packages\swashbuckle.aspnetcore.swaggergen\5.6.3\lib\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.AppContext.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Buffers.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Concurrent.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.NonGeneric.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Specialized.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.Annotations.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.DataAnnotations.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Immutable.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.EventBasedAsync.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Users\mahmoud.dahi\.nuget\packages\swashbuckle.aspnetcore.swaggerui\5.6.3\lib\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ComponentModel.TypeConverter.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Configuration.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Console.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Core.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Data.Common.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Data.DataSetExtensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Data.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Contracts.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Debug.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.DiagnosticSource.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.EventLog.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.FileVersionInfo.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Process.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.StackTrace.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.TextWriterTraceListener.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Tools.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.TraceSource.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.Tracing.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Drawing.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Drawing.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Dynamic.Runtime.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Formats.Asn1.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.Calendars.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.Extensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.Brotli.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.FileSystem.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Compression.ZipFile.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.Watcher.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.IsolatedStorage.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.MemoryMappedFiles.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.IO.Pipelines.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.Pipes.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.UnmanagedMemoryStream.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.Expressions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.Parallel.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.Queryable.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Memory.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Http.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Http.Json.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.HttpListener.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Mail.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.NameResolution.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.NetworkInformation.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Ping.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Requests.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Security.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.ServicePoint.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.Sockets.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebClient.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebHeaderCollection.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebProxy.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebSockets.Client.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Net.WebSockets.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Numerics.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Numerics.Vectors.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ObjectModel.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.DispatchProxy.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Emit.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Emit.ILGeneration.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.DriveInfo.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.IO.FileSystem.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Metadata.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.TypeExtensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Resources.Reader.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Resources.ResourceManager.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Resources.Writer.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.CompilerServices.VisualC.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Handles.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.InteropServices.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.InteropServices.RuntimeInformation.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Intrinsics.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Loader.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Numerics.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Formatters.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Json.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Xml.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.AccessControl.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Claims.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Algorithms.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Cng.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Csp.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Encoding.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Primitives.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.X509Certificates.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Xml.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Permissions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Principal.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Principal.Windows.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.SecureString.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ServiceModel.Web.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ServiceProcess.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encoding.CodePages.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Extensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Extensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encoding.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encoding.Extensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Encodings.Web.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Json.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.RegularExpressions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Channels.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Overlapped.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Dataflow.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Extensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Parallel.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Thread.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.ThreadPool.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Timer.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Transactions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Transactions.Local.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.ValueTuple.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Web.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Web.HttpUtility.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Windows.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.Emit.Lightweight.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Windows.Extensions.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.Linq.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.Serialization.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XDocument.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XmlDocument.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XmlSerializer.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.dll
+[11180] [001] [INFO]   Resolved reference C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.ReaderWriter.dll
+[11180] [001] [INFO]   Models constructed in 00:00:01.7262854
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Antiforgery.dll (00:00:00.2232785)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Abstractions.dll (00:00:00.2691659)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Cookies.dll (00:00:00.2890393)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Core.dll (00:00:00.0283488)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.OAuth.dll (00:00:00.0586134)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authorization.dll (00:00:00.0792269)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.dll (00:00:00.1420406)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authorization.Policy.dll (00:00:00.0194651)
+[11180] [001] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.dll (00:00:00.5380643)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Components.Authorization.dll (00:00:00.0580698)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Components.Server.dll (00:00:00.0293679)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Components.Forms.dll (00:00:00.1099780)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll (00:00:00.0494112)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.CookiePolicy.dll (00:00:00.0090357)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Components.dll (00:00:00.2341132)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll (00:00:00.0023199)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll (00:00:00.0042936)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll (00:00:00.0615138)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Cors.dll (00:00:00.0932424)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Components.Web.dll (00:00:00.2375048)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.DataProtection.Extensions.dll (00:00:00.0066301)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll (00:00:00.0152130)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.DataProtection.dll (00:00:00.0872350)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll (00:00:00.0064152)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Diagnostics.dll (00:00:00.0432835)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.dll (00:00:00.0060805)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.HostFiltering.dll (00:00:00.0062347)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Html.Abstractions.dll (00:00:00.0099104)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Hosting.Abstractions.dll (00:00:00.0590123)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Hosting.dll (00:00:00.0637283)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.Connections.Common.dll (00:00:00.0709997)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll (00:00:00.1154618)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.Connections.dll (00:00:00.0627602)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.HttpOverrides.dll (00:00:00.0118656)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.Extensions.dll (00:00:00.0399128)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.Features.dll (00:00:00.0659826)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.HttpsPolicy.dll (00:00:00.0149009)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Localization.dll (00:00:00.0134300)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Metadata.dll (00:00:00.0109237)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Localization.Routing.dll (00:00:00.0714433)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll (00:00:00.0052403)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Cors.dll (00:00:00.0043247)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll (00:00:00.0227539)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Identity.dll (00:00:00.2084139)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.dll (00:00:00.0111453)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll (00:00:00.0016249)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll (00:00:00.0768940)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Localization.dll (00:00:00.0948110)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Abstractions.dll (00:00:00.3735927)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Razor.dll (00:00:00.0928971)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll (00:00:00.1487264)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.RazorPages.dll (00:00:00.2837034)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Razor.dll (00:00:00.0678382)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Razor.Runtime.dll (00:00:00.0138491)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.dll (00:00:00.1969436)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll (00:00:00.0106333)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.ResponseCaching.dll (00:00:00.0178165)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.ResponseCompression.dll (00:00:00.0198011)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Routing.Abstractions.dll (00:00:00.0308255)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Rewrite.dll (00:00:00.0393304)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.Core.dll (00:00:01.0321474)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll (00:00:00.4813184)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Server.IISIntegration.dll (00:00:00.0051147)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Server.IIS.dll (00:00:00.0178637)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Server.HttpSys.dll (00:00:00.0269336)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll (00:00:00.0059685)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Server.Kestrel.dll (00:00:00.0032612)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll (00:00:00.0068069)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Session.dll (00:00:00.0098509)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll (00:00:00.1023395)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.SignalR.Common.dll (00:00:00.0608974)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.SignalR.dll (00:00:00.0121548)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.SignalR.Core.dll (00:00:00.1090452)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Routing.dll (00:00:00.2803459)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll (00:00:00.0080361)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.WebSockets.dll (00:00:00.0059515)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.StaticFiles.dll (00:00:00.0852729)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Caching.Abstractions.dll (00:00:00.0879371)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Caching.Memory.dll (00:00:00.0872336)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.Binder.dll (00:00:00.0057583)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.CommandLine.dll (00:00:00.0088366)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll (00:00:00.0331491)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.dll (00:00:00.0154523)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll (00:00:00.0079305)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll (00:00:00.0293323)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.Json.dll (00:00:00.0048808)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.Ini.dll (00:00:00.0059151)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.WebUtilities.dll (00:00:00.2206273)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.KeyPerFile.dll (00:00:00.0295163)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.UserSecrets.dll (00:00:00.0088559)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Configuration.Xml.dll (00:00:00.0083508)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.DependencyInjection.dll (00:00:00.0195022)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll (00:00:00.0395541)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll (00:00:00.0596079)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll (00:00:00.1118036)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.FileProviders.Composite.dll (00:00:00.0341930)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll (00:00:00.0552949)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll (00:00:00.0055230)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.FileProviders.Physical.dll (00:00:00.0110692)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll (00:00:00.0140999)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll (00:00:00.0266929)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Hosting.dll (00:00:00.0173404)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Http.dll (00:00:00.0718411)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Localization.Abstractions.dll (00:00:00.1050881)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Localization.dll (00:00:00.0590943)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Identity.Stores.dll (00:00:00.2551718)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.Abstractions.dll (00:00:00.0410642)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.Configuration.dll (00:00:00.0097543)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Identity.Core.dll (00:00:00.3581174)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.Debug.dll (00:00:00.0029217)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.EventLog.dll (00:00:00.0049966)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.Console.dll (00:00:00.0218194)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.dll (00:00:00.0559943)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.EventSource.dll (00:00:00.0890148)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.TraceSource.dll (00:00:00.0045025)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll (00:00:00.0128151)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.ObjectPool.dll (00:00:00.0213098)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Options.DataAnnotations.dll (00:00:00.0144106)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.WebEncoders.dll (00:00:00.0082773)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Primitives.dll (00:00:00.1083030)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Options.dll (00:00:00.2272867)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Net.Http.Headers.dll (00:00:00.1160126)
+[11180] [008] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\swashbuckle.aspnetcore.swagger\5.6.3\lib\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll (00:00:00.0119235)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Registry.dll (00:00:00.0338784)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.JSInterop.dll (00:00:00.0827504)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Diagnostics.EventLog.dll (00:00:00.1372719)
+[11180] [008] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\swashbuckle.aspnetcore.swaggerui\5.6.3\lib\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll (00:00:00.1413721)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.IO.Pipelines.dll (00:00:00.0398317)
+[11180] [007] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\swashbuckle.aspnetcore.swaggergen\5.6.3\lib\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll (00:00:00.2286060)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Reflection.DispatchProxy.dll (00:00:00.0034219)
+[11180] [009] [INFO]   C:\Users\mahmoud.dahi\.nuget\packages\microsoft.openapi\1.2.3\lib\netstandard2.0\Microsoft.OpenApi.dll (00:00:00.6544169)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Serialization.Json.dll (00:00:00.0419609)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Linq.Expressions.dll (00:00:00.4155266)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.AccessControl.dll (00:00:00.1899557)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Algorithms.dll (00:00:00.2438323)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Cng.dll (00:00:00.2027110)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Cryptography.Xml.dll (00:00:00.1150479)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Principal.Windows.dll (00:00:00.1047528)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Permissions.dll (00:00:00.5294133)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Text.Json.dll (00:00:00.1926130)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Extensions.dll (00:00:00.0505186)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.Dataflow.dll (00:00:00.2176214)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Thread.dll (00:00:00.0881407)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.Serialization.dll (00:00:00.0453425)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Windows.Extensions.dll (00:00:00.0925455)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.Intrinsics.dll (00:00:01.8561710)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.dll (00:00:00.0051194)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XDocument.dll (00:00:00.2078456)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll (00:00:00.0058492)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Threading.Tasks.dll (00:00:00.0015601)
+[11180] [001] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll (00:00:00.0202278)
+[11180] [009] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XmlSerializer.dll (00:00:00.2397604)
+[11180] [001] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\Controllers\UnsafeController.cs (00:00:00.2969511)
+[11180] [009] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\Controllers\WeatherForecastController.cs (00:00:00.2537379)
+[11180] [001] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\Program.cs (00:00:00.0377388)
+[11180] [009] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\Startup.cs (00:00:00.0671921)
+[11180] [008] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.ReaderWriter.dll (00:00:00.5900910)
+[11180] [001] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs (00:00:00.0234725)
+[11180] [008] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.AssemblyInfo.cs (00:00:00.0215609)
+[11180] [009] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\WeatherForecast.cs (00:00:00.1398601)
+[11180] [001] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.GlobalUsings.g.cs (00:00:00.0303818)
+[11180] [008] [INFO]   E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD\TestCICD\obj\Debug\net5.0\TestCICD.MvcApplicationPartsAssemblyInfo.cs (00:00:00.0544991)
+[11180] [007] [INFO]   C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Runtime.dll (00:00:03.6328480)
+[11180] [001] [INFO]   Extraction took 00:00:07.9822224
+[11180] [001] [INFO]   Peak working set = 267 MB
+[11180] [001] [INFO] EXTRACTION FAILED with 16 errors in 00:00:09.8765093

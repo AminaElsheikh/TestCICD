@@ -1,0 +1,46 @@
+---
+sourceLocationPrefix: E:\0 Amina\0 Trash\Test CICD\TestCICD\TestCI-CD\TestCICD
+baselineLinesOfCode: 230
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: csharp
+inProgress:
+  primaryLanguage: csharp
+  installedExtractors:
+    actions:
+     - C:/tools/codeql/actions
+    cpp:
+     - C:/tools/codeql/cpp
+    csharp:
+     - C:/tools/codeql/csharp
+    csv:
+     - C:/tools/codeql/csv
+    go:
+     - C:/tools/codeql/go
+    html:
+     - C:/tools/codeql/html
+    java:
+     - C:/tools/codeql/java
+    javascript:
+     - C:/tools/codeql/javascript
+    properties:
+     - C:/tools/codeql/properties
+    python:
+     - C:/tools/codeql/python
+    ruby:
+     - C:/tools/codeql/ruby
+    rust:
+     - C:/tools/codeql/rust
+    swift:
+     - C:/tools/codeql/swift
+    xml:
+     - C:/tools/codeql/xml
+    yaml:
+     - C:/tools/codeql/yaml
+creationMetadata:
+  sha: d44d6eb122895a2528654fbc85f4bc889bc0e844
+  cliVersion: 2.22.1
+  creationTime: 2025-07-26T13:58:57.652215400Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: false

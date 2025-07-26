@@ -26,31 +26,41 @@ jobs:
       - name: Build Project
         run: dotnet build --configuration Release
 
-      # - name: Run Tests
-      #   run: dotnet test --configuration Release --logger "xunit;LogFilePath=test-results.xml"
+      - name: Run Tests
+        run: dotnet test --configuration Release --no-build --verbosity normal #dotnet test --configuration Release --logger "xunit;LogFilePath=test-results.xml"
 
-      - name: Publish Project
-        run: dotnet publish --configuration Release --output ./publish
+      # - name: Publish Project
+      #   run: dotnet publish --configuration Release --output ./publish
 
-  # deploy:
-  #   needs: build
-  #   runs-on: windows-latest
-  #   steps:
-  #     - name: Checkout Code
-  #       uses: actions/checkout@v2
+  deploy:
+    needs: build
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
-  #     - name: Setup IIS Deployment
-  #       run: |
-  #         $ErrorActionPreference = "Stop"
-  #         # Ensure IIS is installed
-  #         Install-WindowsFeature -Name Web-Server -IncludeManagementTools
+      - name: Setup IIS Deployment
+        run: |
+          $ErrorActionPreference = "Stop"
+          # Ensure IIS is installed
+          Install-WindowsFeature -Name Web-Server -IncludeManagementTools
 
-  #     - name: Deploy to IIS
-  #       run: |
-  #         # Assuming IIS is set up to deploy via a folder or Web Deploy (MSDeploy)
-  #         $publishDirectory = "C:\inetpub\wwwroot\your-app"
-  #         Copy-Item -Recurse -Path ./publish/* -Destination $publishDirectory
-  #       env:
-  #         DEPLOY_SERVER: ${{ secrets.IIS_SERVER }}
-  #         DEPLOY_USER: ${{ secrets.IIS_USER }}
-  #         DEPLOY_PASSWORD: ${{ secrets.IIS_PASSWORD }}
+      - name: Deploy to IIS
+        run: |
+          # Assuming IIS is set up to deploy via a folder or Web Deploy (MSDeploy)
+          $publishDirectory = "C:\inetpub\wwwroot\testCICD"
+          Copy-Item -Recurse -Path ./publish/* -Destination $publishDirectory
+
+  my-job:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: windows-latest #ubuntu-latest
+    steps:
+      - name: Example Step
+        run: echo "This is my-job with specific permissions."
+
+        # env:
+        #   DEPLOY_SERVER: ${{ secrets.IIS_SERVER }}
+        #   DEPLOY_USER: ${{ secrets.IIS_USER }}
+        #   DEPLOY_PASSWORD: ${{ secrets.IIS_PASSWORD }}

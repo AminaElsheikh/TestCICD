@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=AminaElsheikh_TestCICD
-            -Dsonar.organization=aminaelsheikh
+            -Dsonar.projectKey=AminaElsheikh_TestCICD # from here https://sonarcloud.io/dashboard?id=your_org_your_project
+            -Dsonar.organization=aminaelsheikh # from here https://sonarcloud.io/organizations/YOUR_ORG_NAME/projects
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.sources=.

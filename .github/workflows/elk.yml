@@ -1,0 +1,37 @@
+name: ELK Stack Test
+
+on: [push]
+
+jobs:
+  elk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Compose
+        uses: docker/setup-buildx-action@v2
+
+      - name: Start ELK stack with Docker Compose
+        run: |
+          docker-compose up -d
+
+      - name: Wait for Elasticsearch to be healthy
+        run: |
+          for i in {1..30}; do
+            if curl -s http://localhost:9200 | grep -q '"status":200'; then
+              echo "Elasticsearch is up!"
+              break
+            else
+              echo "Waiting for Elasticsearch..."
+              sleep 5
+            fi
+          done
+
+      - name: Run tests or log ingestion (optional)
+        run: |
+          # your test commands here
+
+      - name: Shutdown ELK stack
+        run: docker-compose down

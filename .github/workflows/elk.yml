@@ -15,27 +15,40 @@ jobs:
           Invoke-WebRequest -Uri https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.2-windows-x86_64.zip -OutFile elasticsearch.zip
           Expand-Archive elasticsearch.zip -DestinationPath elasticsearch
 
-      - name: Start Elasticsearch
+      - name: Start Elasticsearch (background job)
         run: |
-          Start-Process -NoNewWindow -FilePath "elasticsearch\elasticsearch-8.10.2\bin\elasticsearch.bat"
-          Start-Sleep -Seconds 30 # wait for ES to start
+          Start-Job -ScriptBlock {
+            & "elasticsearch\elasticsearch-8.10.2\bin\elasticsearch.bat"
+          } | Out-Null
+          Start-Sleep -Seconds 40  # Allow ES some time to fully start
 
-      - name: Wait for Elasticsearch health
+      - name: Check if Elasticsearch is up
         run: |
-          $health = ""
-          for ($i=0; $i -lt 30; $i++) {
-            $response = Invoke-RestMethod -Uri http://localhost:9200
-            if ($response.status -eq 200) {
-              Write-Host "Elasticsearch is up!"
-              break
+          $maxRetries = 10
+          $success = $false
+
+          for ($i = 0; $i -lt $maxRetries; $i++) {
+            try {
+              $response = Invoke-RestMethod -Uri http://localhost:9200
+              if ($response.version) {
+                Write-Host "Elasticsearch is up!"
+                $success = $true
+                break
+              }
+            } catch {
+              Write-Host "Waiting for Elasticsearch..."
+              Start-Sleep -Seconds 5
             }
-            Start-Sleep -Seconds 5
+          }
+
+          if (-not $success) {
+            throw "Elasticsearch did not start in time."
           }
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '5.0.x'
+          dotnet-version: '7.0.x'
 
       - name: Build and test
         run: |
@@ -44,4 +57,4 @@ jobs:
 
       - name: Stop Elasticsearch
         run: |
-          Get-Process elasticsearch | Stop-Process -Force
+          Get-Process elasticsearch -ErrorAction SilentlyContinue | Stop-Process -Force

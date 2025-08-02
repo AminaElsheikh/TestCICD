@@ -1,31 +1,47 @@
+name: ELK Stack Test on Windows
+
+on: [push]
+
 jobs:
-  elk:
-    runs-on: ubuntu-latest
+  elk-windows:
+    runs-on: windows-latest
+
     steps:
-      - name: Install Java (Elasticsearch requires Java)
-        run: sudo apt-get update && sudo apt-get install -y openjdk-11-jdk
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Download and install Elasticsearch
+      - name: Download Elasticsearch
         run: |
-          wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.0-linux-x86_64.tar.gz
-          tar -xzf elasticsearch-8.10.0-linux-x86_64.tar.gz
-          ./elasticsearch-8.10.0/bin/elasticsearch -d
+          Invoke-WebRequest -Uri https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.2-windows-x86_64.zip -OutFile elasticsearch.zip
+          Expand-Archive elasticsearch.zip -DestinationPath elasticsearch
 
-      - name: Wait for Elasticsearch to start
+      - name: Start Elasticsearch
         run: |
-          for i in {1..30}; do
-            if curl -s http://localhost:9200 | grep -q '"version"'; then
-              echo "Elasticsearch is up!"
+          Start-Process -NoNewWindow -FilePath "elasticsearch\elasticsearch-8.10.2\bin\elasticsearch.bat"
+          Start-Sleep -Seconds 30 # wait for ES to start
+
+      - name: Wait for Elasticsearch health
+        run: |
+          $health = ""
+          for ($i=0; $i -lt 30; $i++) {
+            $response = Invoke-RestMethod -Uri http://localhost:9200
+            if ($response.status -eq 200) {
+              Write-Host "Elasticsearch is up!"
               break
-            else
-              echo "Waiting for Elasticsearch..."
-              sleep 5
-            fi
-          done
+            }
+            Start-Sleep -Seconds 5
+          }
 
-      - name: Run tests
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '5.0.x'
+
+      - name: Build and test
         run: |
-          # your tests here
+          dotnet build
+          dotnet test
 
       - name: Stop Elasticsearch
-        run: pkill -f elasticsearch
+        run: |
+          Get-Process elasticsearch | Stop-Process -Force

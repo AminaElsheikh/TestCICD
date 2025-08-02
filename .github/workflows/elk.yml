@@ -1,26 +1,20 @@
-name: ELK Stack Test
-
-on: [push]
-
 jobs:
   elk:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Install Java (Elasticsearch requires Java)
+        run: sudo apt-get update && sudo apt-get install -y openjdk-11-jdk
 
-      - name: Set up Docker Compose
-        uses: docker/setup-buildx-action@v2
-
-      - name: Start ELK stack with Docker Compose
+      - name: Download and install Elasticsearch
         run: |
-          docker-compose up -d
+          wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.0-linux-x86_64.tar.gz
+          tar -xzf elasticsearch-8.10.0-linux-x86_64.tar.gz
+          ./elasticsearch-8.10.0/bin/elasticsearch -d
 
-      - name: Wait for Elasticsearch to be healthy
+      - name: Wait for Elasticsearch to start
         run: |
           for i in {1..30}; do
-            if curl -s http://localhost:9200 | grep -q '"status":200'; then
+            if curl -s http://localhost:9200 | grep -q '"version"'; then
               echo "Elasticsearch is up!"
               break
             else
@@ -29,9 +23,9 @@ jobs:
             fi
           done
 
-      - name: Run tests or log ingestion (optional)
+      - name: Run tests
         run: |
-          # your test commands here
+          # your tests here
 
-      - name: Shutdown ELK stack
-        run: docker-compose down
+      - name: Stop Elasticsearch
+        run: pkill -f elasticsearch
